@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="331 190 360 440" role="img" aria-label="FungiTrack">
+  <title>FungiTrack</title>
+  <defs>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#649174"/><stop offset="1" stop-color="#2C583D"/></linearGradient>
+    <linearGradient id="disco" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#E4CCA2"/><stop offset="0.55" stop-color="#B8946A"/><stop offset="1" stop-color="#8E6A40"/></linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C5530"/><stop offset="1" stop-color="#4E3220"/></linearGradient>
+    <clipPath id="recorte"><circle cx="511" cy="362" r="113"/></clipPath>
+  </defs>
+  <path d="M511,615 C470,560 351,440 351,362 A160,160 0 0 1 671,362 C671,440 552,560 511,615 Z" fill="url(#pin)" stroke="#2C583D" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="511" cy="362" r="128" fill="#B4D2B9"/>
+  <circle cx="511" cy="362" r="127" fill="none" stroke="#7FA98B" stroke-width="2"/>
+  <circle cx="511" cy="362" r="113" fill="url(#disco)"/>
+  <g clip-path="url(#recorte)">
+    <line x1="617.2" y1="323.4" x2="550.8" y2="395.4" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="597.6" y1="434.6" x2="502.0" y2="413.2" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="491.4" y1="473.3" x2="462.1" y2="379.8" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="404.8" y1="400.6" x2="471.2" y2="328.6" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="424.4" y1="289.4" x2="520.0" y2="310.8" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="530.6" y1="250.7" x2="559.9" y2="344.2" stroke="#F6EAD2" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M490,402 L534,402 C534,430 538,452 548,470 L476,470 C486,452 490,430 490,402 Z" fill="#EAD9BB"/>
+    <path d="M490,402 L500,402 C500,430 496,452 490,470 L476,470 C486,452 490,430 490,402 Z" fill="#CDB791" opacity=".55"/>
+    <path d="M438,396 C436,352 468,322 512,322 C556,322 588,352 586,396 C586,404 578,406 570,404 L452,404 C444,406 438,404 438,396 Z" fill="url(#cap)"/>
+    <path d="M452,366 C458,344 478,332 500,330" fill="none" stroke="#A47E54" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <circle cx="484" cy="350" r="3.6" fill="#E9D5B4"/><circle cx="500" cy="362" r="3" fill="#E9D5B4"/>
+    <circle cx="470" cy="368" r="2.6" fill="#E9D5B4"/>
+  </g>
+  
+</svg>
